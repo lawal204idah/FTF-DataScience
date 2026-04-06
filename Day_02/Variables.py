@@ -17,11 +17,11 @@ print(type(Last_name))
 print(type(full_name))
 print(len(first_name))
 if len(first_name) > len(Last_name):
-    print("First Name is Longer than Last Name")
+    print("First Name is Longer than Last Name ")
 elif len(first_name) < len(Last_name):
-    print("Last Name is Longer than Firts Name")
+    print("Last Name is Longer than Firts Name ")
 else:
-    print("Both have the same Length")
+    print("Both have the same Length ")
 # Adding num_one and num_two
 num_one = 5
 num_two = 4
@@ -56,11 +56,11 @@ print(circum_of_cicle)
 circum_of_cicle = int(input("Enter the radius of the circle "))
 area_of_cicle = circum_of_cicle * 2 * 3.1429
 # Getting Personal detals from user
-first_name = input("Enter your First Name")
+first_name = input("Enter your First Name ")
 print(first_name)
-Last_name = input("Enter Your Last Name")
+Last_name = input("Enter Your Last Name ")
 print(Last_name)
-country = input("Enter Your Country")
+country = input("Enter Your Country ")
 print(country)
-Age = input("Enter Your Age")
+Age = input("Enter Your Age ")
 print(Age)
